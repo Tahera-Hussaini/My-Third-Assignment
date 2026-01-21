@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+marquee {
+    color: #DB4437;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.theater {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid gold;
+    border-radius: 20px;
+    box-shadow: 0 0 30px gold;
+}
+
+.video-box video {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.button-box button {
+    background-color: #DB4437;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.button-box button:hover {
+    background-color: gold;
+    color: black;
+}
+
+
